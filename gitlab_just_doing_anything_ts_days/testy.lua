@@ -24,17 +24,17 @@ end
 
 task.wait()
 
-local first, second = loadstring(game:HttpGet("https://raw.githubusercontent.com/senS24th/es-unk-stuff/refs/heads/main/gitlab_just_doing_anything_ts_days/dep1.lua"))()
+local first, second = loadstring(game:HttpGet("https://raw.githubusercontent.com/senS24th/es-unk-stuff/refs/heads/main/dep1.lua"))()
 if getgenv().sUNCDebug["printcheckpoints"] then
 	print("Getting depencencies[1]")
 end
 task.wait()
-local nnn = loadstring(game:HttpGet("https://raw.githubusercontent.com/senS24th/es-unk-stuff/refs/heads/main/gitlab_just_doing_anything_ts_days/dep2.lua"))()
+local nnn = loadstring(game:HttpGet("https://raw.githubusercontent.com/senS24th/es-unk-stuff/refs/heads/main/dep2.lua"))()
 if getgenv().sUNCDebug["printcheckpoints"] then
 	print("Getting depencencies[2]")
 end
 task.wait()
-local mmm = loadstring(game:HttpGet("https://raw.githubusercontent.com/senS24th/es-unk-stuff/refs/heads/main/gitlab_just_doing_anything_ts_days/dep3.lua"))()
+local mmm = loadstring(game:HttpGet("https://raw.githubusercontent.com/senS24th/es-unk-stuff/refs/heads/main/dep3.lua"))()
 if getgenv().sUNCDebug["printcheckpoints"] then
 	print("Got depencencies?")
 end
@@ -46,7 +46,7 @@ if debug.getproto then
 		local function v()
 			local function insider()
 				local nnn =
-					loadstring(game:HttpGet("https://raw.githubusercontent.com/senS24th/es-unk-stuff/refs/heads/main/gitlab_just_doing_anything_ts_days/dep2.lua"))()
+					loadstring(game:HttpGet("https://raw.githubusercontent.com/senS24th/es-unk-stuff/refs/heads/main/dep2.lua"))()
 				m = nnn
 				return nnn
 			end
@@ -265,7 +265,7 @@ end
 
 task.wait(getgenv().sUNCDebug["delaybetweentests"] or 0)
 
-local what_the_sus = loadstring(game:HttpGet("https://raw.githubusercontent.com/senS24th/es-unk-stuff/refs/heads/main/gitlab_just_doing_anything_ts_days/dep2.lua"))()
+local what_the_sus = loadstring(game:HttpGet("https://raw.githubusercontent.com/senS24th/es-unk-stuff/refs/heads/main/dep2.lua"))()
 
 if getgenv().sUNCDebug["printcheckpoints"] then
 	print(",")
