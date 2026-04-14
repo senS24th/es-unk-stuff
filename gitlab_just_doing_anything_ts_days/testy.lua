@@ -24,7 +24,6 @@ end
 
 task.wait()
 
-local first, second = loadstring(game:HttpGet("https://raw.githubusercontent.com/senS24th/es-unk-stuff/refs/heads/main/dep1.lua"))()
 if getgenv().sUNCDebug["printcheckpoints"] then
 	print("Getting depencencies[1]")
 end
