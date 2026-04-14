@@ -1,0 +1,2 @@
+table = {}
+return table
